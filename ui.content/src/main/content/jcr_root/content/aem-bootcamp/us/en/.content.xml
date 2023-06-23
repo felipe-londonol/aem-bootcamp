@@ -2,14 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        pageTitle="AEM Bootcamp Site"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="en"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-06-22T21:23:07.604-06:00"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/aem-bootcamp/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
         sling:resourceType="aem-bootcamp/components/page"
-    >
+        pageTitle="AEM Bootcamp Site">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="aem-bootcamp/components/container"
@@ -40,6 +41,14 @@
                                 width="4"/>
                         </cq:responsive>
                     </teaser>
+                    <separator_1127009942
+                        cq:styleIds="[1687484542909,1687484383339,1687484503857]"
+                        jcr:created="{Date}2023-06-22T21:22:47.484-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-22T21:22:47.484-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/general/separator"/>
                     <teaser_copy
                         jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
                         jcr:primaryType="nt:unstructured"
@@ -72,10 +81,48 @@
                                 width="4"/>
                         </cq:responsive>
                     </teaser_copy_1579324932>
+                    <separator
+                        cq:styleIds="[1687307381828,1687302420415,1687307878714]"
+                        jcr:created="{Date}2023-06-20T18:05:54.432-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-20T18:05:54.432-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/general/separator"/>
+                    <separator_1372598600
+                        cq:styleIds="[1687484519886,1687484581661,1687307364698]"
+                        jcr:created="{Date}2023-06-22T21:04:07.255-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-22T21:04:07.255-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/general/separator"/>
                     <helloworld
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="aem-bootcamp/components/helloworld"
                         text="lalala :)"/>
+                    <separator_2065045112
+                        jcr:created="{Date}2023-06-21T15:03:48.974-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-21T15:03:48.974-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/general/separator"/>
+                    <text
+                        jcr:created="{Date}2023-06-14T14:27:57.182-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-14T14:28:09.460-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/general/text"
+                        textIsRich="true"/>
+                    <image
+                        jcr:created="{Date}2023-06-14T14:23:08.997-06:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2023-06-14T14:23:08.997-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="aem-bootcamp/components/general/image"/>
                 </container>
             </container>
         </root>

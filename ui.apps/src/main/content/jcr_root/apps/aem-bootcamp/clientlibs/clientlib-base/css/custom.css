@@ -1,0 +1,62 @@
+
+.bootcamp-separator-hide {
+	display: none;
+	visibility: hidden;
+}
+
+.bootcamp-separator-show {
+	display: block;
+	visibility: visible;
+}
+
+
+.bootcamp-separator-color-grey {
+	color: #808080;
+}
+
+.bootcamp-separator-color-black {
+	color: #000000;
+}
+
+.bootcamp-separator-color-white {
+	color: #FFFFFF;
+}
+
+.bootcamp-separator-color-yellow {
+	color: #FFFF00;
+}
+
+.bootcamp-separator-color-red {
+	color: #FF0000;
+}
+
+.bootcamp-separator-color-blue {
+	color: #0000FF;
+}
+
+.bootcamp-separator-width-30 {
+	width: 30% !important;
+}
+
+.bootcamp-separator-width-50 {
+	width: 50% !important;
+}
+
+.bootcamp-separator-width-80 {
+	width: 80% !important;
+}
+.bootcamp-separator-width-100 {
+	width: 100% !important;
+}
+
+.bootcamp-separator-solid {
+	border-style: solid;
+}
+
+.bootcamp-separator-dashed {
+	border-style: dashed;
+}
+
+.bootcamp-separator-dotted {
+	border-style: dotted;
+}  
